@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-#[account]~
+#[account]
 #[derive(InitSpace)]
 pub struct Bet {
     pub player: Pubkey,
