@@ -24,6 +24,8 @@ pub enum DiceError {
     Ed25519Message,
     #[msg("Ed25519 Signature Error")]
     Ed25519Signature,
+    #[msg("Ed25519 Signature Must Be One signature")]
+    Ed25519SignatureMustBeOne,
     #[msg("Ed25119 Program Error")]
     Ed25519Program,
     #[msg("Ed25119 Accounts Error")]
